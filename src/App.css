@@ -5,8 +5,8 @@
     scroll-behavior: smooth;
   }
   
-  body {
-    background: var(--color-bg);
+ body {
+    background:  var(--color-bg);
   }
   
   a {
