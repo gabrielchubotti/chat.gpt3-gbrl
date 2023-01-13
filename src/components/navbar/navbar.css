@@ -48,10 +48,12 @@ cursor: pointer;
 .gpt3__navbar-sign button, .gpt3__navbar-menu_container button {
 padding: 0.5rem 1rem;
 color: #fff;
-left: 1153px;
-top: 55px;
-
 background: #FF4820;
 font-family: var(--font-family);
+font-weight: 500;
+font-size: 18px;
+line-height: 25px;
 border-radius: 5px;
+border: 0;
+outline: none;
 }
