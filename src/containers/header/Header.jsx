@@ -14,9 +14,12 @@ const Header = () => {
           <input type='email' placeholder='Your Email Address'></input>
           <button type='button'>Get Started</button>
         </div>
-
         <div className='gpt__header-content__people'>
-          <img src= {people} />
+          <img src= {people} alt = 'people' />
+          <p>1500 people requested access a visit in the last 24hrs</p>
+        </div>
+        <div className='gpt3__header-image'>
+          <img src = {ai} alt = 'ai' />
         </div>
       </div>
     </div>
