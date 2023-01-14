@@ -1,6 +1,6 @@
 import React from 'react';
-import {Feature} from '../../components/feature/Feature'
 import './whatGPT3.css';
+import { Feature } from '../../components';
 
 
 const WhatGPT3 = () => {
@@ -10,7 +10,7 @@ const WhatGPT3 = () => {
         <Feature />
       </div>
       <div className='gpt3__whatgpt3-heading'>
-        <h1 className='gradient-text'>
+        <h1 className='gradient__text'>
           The possibilities are beyond imagination
         </h1>
         <p>Explore the Library</p>
