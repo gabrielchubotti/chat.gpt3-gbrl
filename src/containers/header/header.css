@@ -146,7 +146,7 @@ border-bottom-right-radius: 5px;
         line-height: 24px;
     }
 
-    @media screen and (max-width 490px) {
+    @media screen and (max-width: 490px) {
         .gpt3__header h1 {
             font-size: 36px;
             line-height: 48px;
