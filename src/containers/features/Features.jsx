@@ -1,22 +1,23 @@
 import React from 'react';
+import { Feature } from '../../components';
 import './features.css';
 
 const featuresData = [
 {
-  title: "dsfsdfsd",
-  text: "fasdfsadfasdfasdfasdfasdfasdasd"
+  title: "Improving end distrusts instantly",
+  text: "sdasdmaskdiasdi iamsdiasmdiamsidmaisd aisdmiasmdais i aidsmiasmi asidmaisdm aidms idasmdi mid mdiamim imamdiamimdaimdsidmi msdiamidmiasmdi amdimadimadsi"
 },
 {
-  title: "dsfsdfsd",
-  text: "fasdfsadfasdfasdfasdfasdfasdasd"
+  title: "Become the tended active",
+  text: "fjsndjfsdj fnjdndjn djsf nsjnsj ndfjn djj njs nfj ndfj nsdjnj nsfjnjsdn jnjdnj njf nsdj nj njs"
 },
 {
-  title: "dsfsdfsd",
-  text: "fasdfsadfasdfasdfasdfasdfasdasd"
+  title: "Message on a  notehing",
+  text: "fjsdnfjnsd jndjf ndjn j jsnjdnjdsnfj snfdjnfjsdnfjsdnjfsndjfdn fjsdnjsndfjsnfjsdnfjdnjf dnfj dsnjdnfjsdnfjfdn jdns"
 },
 {
-  title: "dsfsdfsd",
-  text: "fasdfsadfasdfasdfasdfasdfasdasd"
+  title: "Really bow law county",
+  text: "jdn ejdnejnejnd jsn jnjd ne jnesjnjdn jsd njndejnj njnejn jndjn jn jnjnjnjnjnsjnj njnjnj ncdcs"
 },
 ]
 
@@ -28,7 +29,9 @@ const Features = () => {
       <p>Request early access to get started</p>
       </div>
       <div className='gpt3__features-container'>
-      
+      {featuresData.map((item, index) => (
+        <Feature />
+      ))}
       </div>
     </div>
   )
